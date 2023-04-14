@@ -1,15 +1,14 @@
 import React from 'react';
-import InputDay from './input/inputDay';
-import InputMonth from './input/inputMonth';
-import InputYear from './input/inputYear';
-import OutputYear from './output/outputYear';
-import OutputMonth from './output/outputMonth';
-import OutputDay from './output/outputDay';
+import InputDay from './input/input';
+import Output from './output/output';
+import Button from './button/button';
 
 export default function core() {
     return (
-        <div>
+        <div className='mt-9 bg-white ml-5 mr-5 rounded-t-xl rounded-br-3xl rounded-bl-xl pb-10'>
             <InputDay />
+            <Button />
+            <Output />
         </div>
     );
 }
